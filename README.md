@@ -1,16 +1,50 @@
-# React + Vite
+🪙 Crypto-Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, real-time cryptocurrency tracking application built with React, Redux Toolkit, and Tailwind CSS. This project allows users to track current prices of the top 50 cryptocurrencies, view detailed statistics, and manage a personalized watchlist.
+🚀 Features
 
-Currently, two official plugins are available:
+    Real-time Data: Fetches live cryptocurrency data from the CoinGecko API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    Global State Management: Uses Redux Toolkit for consistent data flow across multiple components.
 
-## React Compiler
+    Async Logic: Managed API calls and side effects using createAsyncThunk.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+    Dynamic Routing: Each cryptocurrency has its own detailed page with route parameters.
 
-## Expanding the ESLint configuration
+    Personalized Watchlist: Add your favorite coins to a watchlist, persisted via Local Storage.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    Currency Converter: Built-in calculator to convert crypto values to USD.
+
+🛠️ Tech Stack
+
+    Frontend: React (Vite)
+
+    State Management: Redux Toolkit (Slices, AsyncThunks)
+
+    Styling: Tailwind CSS (v4)
+
+    HTTP Client: Axios
+
+    Icons: React Icons
+
+📸 Screenshots
+
+# Coin List
+<img width="700" height="700" alt="resim" src="https://github.com/user-attachments/assets/6f101b54-9b68-4ab5-8b36-ab4668548855" />
+
+# Coin Details
+<img width="700" height="700" alt="resim" src="https://github.com/user-attachments/assets/2acdf924-7243-424f-8577-849676afbea8" />
+
+# Favorite Coins
+<img width="700" height="700" alt="resim" src="https://github.com/user-attachments/assets/0dce81d8-01a7-418f-93b2-1fd44d48eeb7" />
+
+
+
+⚙️ Installation & Setup
+
+    Clone the repository:
+    git clone https://github.com/emrehansmsk194/Crypto-Tracker.git
+    Install dependencies:
+    npm install react-router-dom axios react-icons 
+    Run the development server:
+    npm run dev
